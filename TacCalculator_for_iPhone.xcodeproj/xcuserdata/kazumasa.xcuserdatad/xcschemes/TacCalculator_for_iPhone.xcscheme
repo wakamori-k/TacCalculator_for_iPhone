@@ -5,6 +5,36 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "200380FB1B3307E200FB5EB0"
+               BuildableName = "TacCalculator_for_iPhone.app"
+               BlueprintName = "TacCalculator_for_iPhone"
+               ReferencedContainer = "container:TacCalculator_for_iPhone.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "200381101B3307E300FB5EB0"
+               BuildableName = "TacCalculator_for_iPhoneTests.xctest"
+               BlueprintName = "TacCalculator_for_iPhoneTests"
+               ReferencedContainer = "container:TacCalculator_for_iPhone.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -12,7 +42,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "200381101B3307E300FB5EB0"
+               BuildableName = "TacCalculator_for_iPhoneTests.xctest"
+               BlueprintName = "TacCalculator_for_iPhoneTests"
+               ReferencedContainer = "container:TacCalculator_for_iPhone.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "200380FB1B3307E200FB5EB0"
+            BuildableName = "TacCalculator_for_iPhone.app"
+            BlueprintName = "TacCalculator_for_iPhone"
+            ReferencedContainer = "container:TacCalculator_for_iPhone.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -23,6 +72,16 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "200380FB1B3307E200FB5EB0"
+            BuildableName = "TacCalculator_for_iPhone.app"
+            BlueprintName = "TacCalculator_for_iPhone"
+            ReferencedContainer = "container:TacCalculator_for_iPhone.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -32,6 +91,16 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "200380FB1B3307E200FB5EB0"
+            BuildableName = "TacCalculator_for_iPhone.app"
+            BlueprintName = "TacCalculator_for_iPhone"
+            ReferencedContainer = "container:TacCalculator_for_iPhone.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
