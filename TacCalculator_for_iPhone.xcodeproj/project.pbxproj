@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200381021B3307E200FB5EB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200381011B3307E200FB5EB0 /* AppDelegate.swift */; };
+		200381041B3307E200FB5EB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200381031B3307E200FB5EB0 /* ViewController.swift */; };
+		200381071B3307E200FB5EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200381051B3307E200FB5EB0 /* Main.storyboard */; };
+		200381091B3307E200FB5EB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200381081B3307E200FB5EB0 /* Images.xcassets */; };
+		2003810C1B3307E300FB5EB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2003810A1B3307E300FB5EB0 /* LaunchScreen.xib */; };
+		200381181B3307E300FB5EB0 /* TacCalculator_for_iPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200381171B3307E300FB5EB0 /* TacCalculator_for_iPhoneTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		200381121B3307E300FB5EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 200380F41B3307E200FB5EB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 200380FB1B3307E200FB5EB0;
+			remoteInfo = TacCalculator_for_iPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200380FC1B3307E200FB5EB0 /* TacCalculator_for_iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacCalculator_for_iPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200381001B3307E200FB5EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200381011B3307E200FB5EB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		200381031B3307E200FB5EB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		200381061B3307E200FB5EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		200381081B3307E200FB5EB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2003810B1B3307E300FB5EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		200381111B3307E300FB5EB0 /* TacCalculator_for_iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacCalculator_for_iPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		200381161B3307E300FB5EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200381171B3307E300FB5EB0 /* TacCalculator_for_iPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacCalculator_for_iPhoneTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		200380F91B3307E200FB5EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2003810E1B3307E300FB5EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200380F31B3307E200FB5EB0 = {
+			isa = PBXGroup;
+			children = (
+				200380FE1B3307E200FB5EB0 /* TacCalculator_for_iPhone */,
+				200381141B3307E300FB5EB0 /* TacCalculator_for_iPhoneTests */,
+				200380FD1B3307E200FB5EB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		200380FD1B3307E200FB5EB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200380FC1B3307E200FB5EB0 /* TacCalculator_for_iPhone.app */,
+				200381111B3307E300FB5EB0 /* TacCalculator_for_iPhoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		200380FE1B3307E200FB5EB0 /* TacCalculator_for_iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				200381011B3307E200FB5EB0 /* AppDelegate.swift */,
+				200381031B3307E200FB5EB0 /* ViewController.swift */,
+				200381051B3307E200FB5EB0 /* Main.storyboard */,
+				200381081B3307E200FB5EB0 /* Images.xcassets */,
+				2003810A1B3307E300FB5EB0 /* LaunchScreen.xib */,
+				200380FF1B3307E200FB5EB0 /* Supporting Files */,
+			);
+			path = TacCalculator_for_iPhone;
+			sourceTree = "<group>";
+		};
+		200380FF1B3307E200FB5EB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				200381001B3307E200FB5EB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		200381141B3307E300FB5EB0 /* TacCalculator_for_iPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				200381171B3307E300FB5EB0 /* TacCalculator_for_iPhoneTests.swift */,
+				200381151B3307E300FB5EB0 /* Supporting Files */,
+			);
+			path = TacCalculator_for_iPhoneTests;
+			sourceTree = "<group>";
+		};
+		200381151B3307E300FB5EB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				200381161B3307E300FB5EB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		200380FB1B3307E200FB5EB0 /* TacCalculator_for_iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2003811B1B3307E300FB5EB0 /* Build configuration list for PBXNativeTarget "TacCalculator_for_iPhone" */;
+			buildPhases = (
+				200380F81B3307E200FB5EB0 /* Sources */,
+				200380F91B3307E200FB5EB0 /* Frameworks */,
+				200380FA1B3307E200FB5EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TacCalculator_for_iPhone;
+			productName = TacCalculator_for_iPhone;
+			productReference = 200380FC1B3307E200FB5EB0 /* TacCalculator_for_iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		200381101B3307E300FB5EB0 /* TacCalculator_for_iPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2003811E1B3307E300FB5EB0 /* Build configuration list for PBXNativeTarget "TacCalculator_for_iPhoneTests" */;
+			buildPhases = (
+				2003810D1B3307E300FB5EB0 /* Sources */,
+				2003810E1B3307E300FB5EB0 /* Frameworks */,
+				2003810F1B3307E300FB5EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				200381131B3307E300FB5EB0 /* PBXTargetDependency */,
+			);
+			name = TacCalculator_for_iPhoneTests;
+			productName = TacCalculator_for_iPhoneTests;
+			productReference = 200381111B3307E300FB5EB0 /* TacCalculator_for_iPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		200380F41B3307E200FB5EB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = wakamori;
+				TargetAttributes = {
+					200380FB1B3307E200FB5EB0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					200381101B3307E300FB5EB0 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 200380FB1B3307E200FB5EB0;
+					};
+				};
+			};
+			buildConfigurationList = 200380F71B3307E200FB5EB0 /* Build configuration list for PBXProject "TacCalculator_for_iPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 200380F31B3307E200FB5EB0;
+			productRefGroup = 200380FD1B3307E200FB5EB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				200380FB1B3307E200FB5EB0 /* TacCalculator_for_iPhone */,
+				200381101B3307E300FB5EB0 /* TacCalculator_for_iPhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		200380FA1B3307E200FB5EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200381071B3307E200FB5EB0 /* Main.storyboard in Resources */,
+				2003810C1B3307E300FB5EB0 /* LaunchScreen.xib in Resources */,
+				200381091B3307E200FB5EB0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2003810F1B3307E300FB5EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		200380F81B3307E200FB5EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200381041B3307E200FB5EB0 /* ViewController.swift in Sources */,
+				200381021B3307E200FB5EB0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2003810D1B3307E300FB5EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200381181B3307E300FB5EB0 /* TacCalculator_for_iPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		200381131B3307E300FB5EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 200380FB1B3307E200FB5EB0 /* TacCalculator_for_iPhone */;
+			targetProxy = 200381121B3307E300FB5EB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		200381051B3307E200FB5EB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200381061B3307E200FB5EB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2003810A1B3307E300FB5EB0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2003810B1B3307E300FB5EB0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		200381191B3307E300FB5EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2003811A1B3307E300FB5EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2003811C1B3307E300FB5EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TacCalculator_for_iPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2003811D1B3307E300FB5EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TacCalculator_for_iPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2003811F1B3307E300FB5EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TacCalculator_for_iPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TacCalculator_for_iPhone.app/TacCalculator_for_iPhone";
+			};
+			name = Debug;
+		};
+		200381201B3307E300FB5EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TacCalculator_for_iPhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TacCalculator_for_iPhone.app/TacCalculator_for_iPhone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		200380F71B3307E200FB5EB0 /* Build configuration list for PBXProject "TacCalculator_for_iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200381191B3307E300FB5EB0 /* Debug */,
+				2003811A1B3307E300FB5EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2003811B1B3307E300FB5EB0 /* Build configuration list for PBXNativeTarget "TacCalculator_for_iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2003811C1B3307E300FB5EB0 /* Debug */,
+				2003811D1B3307E300FB5EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2003811E1B3307E300FB5EB0 /* Build configuration list for PBXNativeTarget "TacCalculator_for_iPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2003811F1B3307E300FB5EB0 /* Debug */,
+				200381201B3307E300FB5EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 200380F41B3307E200FB5EB0 /* Project object */;
+}
