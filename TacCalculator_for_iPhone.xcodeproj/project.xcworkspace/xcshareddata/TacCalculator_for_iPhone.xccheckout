@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B214971D-FCEE-40BC-BB53-10E0E633C258</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TacCalculator_for_iPhone</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3D1B70D6628AAEC3A2144212791424A96BDD0CC7</key>
+		<string>https://github.com/wakamori-k/TacCalculator_for_iPhone.xcodeproj.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TacCalculator_for_iPhone.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3D1B70D6628AAEC3A2144212791424A96BDD0CC7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wakamori-k/TacCalculator_for_iPhone.xcodeproj.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3D1B70D6628AAEC3A2144212791424A96BDD0CC7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3D1B70D6628AAEC3A2144212791424A96BDD0CC7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TacCalculator_for_iPhone</string>
+		</dict>
+	</array>
+</dict>
+</plist>
